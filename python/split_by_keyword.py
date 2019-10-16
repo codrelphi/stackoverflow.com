@@ -25,3 +25,6 @@ for line in lines:
         results.append(line_split[0].strip())
 
 print(results)
+
+# Outputs:
+# ['19:08:13.664', '19:14:43.061']
