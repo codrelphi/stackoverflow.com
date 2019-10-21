@@ -5,4 +5,11 @@
 # date: 2019-10-21
 # source: https://stackoverflow.com/questions/58494338/swap-first-and-last-digits-of-a-number-using-loops
 #=================================================================================
-""" Task: Swap the first and the last digit of a number using loop """
+
+def swap(numbers):
+    """ Swap the first and the last digit of a number using loop """
+    numbersList = []
+    for number in str(numbers):
+        numbersList.append(number)
+    numbersList[0], numbersList[-1] = numbersList[-1], numbersList[0]
+    return int(''.join(numbersList))
