@@ -13,3 +13,6 @@ def swap(numbers):
         numbersList.append(number)
     numbersList[0], numbersList[-1] = numbersList[-1], numbersList[0]
     return int(''.join(numbersList))
+
+
+print(2665, " => ", swap(2665)) # display 2665 => 5662
