@@ -10,7 +10,7 @@ def findt():
     userin = input("Input: ")
 
     try:
-        # userin is a float
+        # userin is an int or float
         result = float(userin) ** 2
         print(result)
     except ValueError:
