@@ -9,20 +9,13 @@
 def findt():
     userin = input("Input: ")
 
-    if userin.isnumeric():
-        # userin is numeric
+    try:
+        # userin is a float
         result = float(userin) ** 2
         print(result)
-
-    else:
-        try:
-            # userin is a float
-            result = float(userin) ** 2
-            print(result)
-        except ValueError:
-            # userin is a string
-            print("Sorry Dave, I'm afraid I can't do that")
-            return 0.0
-
+    except ValueError:
+        # userin is a string
+        print("Sorry Dave, I'm afraid I can't do that")
+        return 0.0
 
 findt()
