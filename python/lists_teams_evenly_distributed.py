@@ -38,3 +38,14 @@ def main():
     print(results)
 
 main()
+
+"""
+    The function `list_by_team` returns a random evenly distributed weeks.Just to test:
+    Weeks= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+     21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+     40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+    w1, w2, w3, w4 = [list_by_team(Weeks) for i in range(0, 4)]
+    result = set(w1) & set(w2) & set(w3) & set(w4)
+    print(result) # display: set() => It means that no item is duplicated in four generated list for teams
+
+"""
