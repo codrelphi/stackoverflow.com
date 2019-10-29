@@ -16,8 +16,10 @@ def replaceWord(sep, word, sentence):
     replacer = sep * len_word
     print(sentence.replace(word, replacer))
 
-sentence = "what is tomorrow's date?"
-word = "what"
-sep = "-"
-replaceWord(sep, word, sentence)
-#print(help(replaceWord))
+
+if __name__ == "__main__":
+    sentence = "what is tomorrow's date?"
+    word = "what"
+    sep = "-"
+    replaceWord(sep, word, sentence)
+    #print(help(replaceWord))
