@@ -8,9 +8,9 @@
 
 def replaceWord(sep, word, sentence):
     """
-        @param: sep is the separator
-        @param: word is the work to replace
-        @param: sentence is the sentence
+        :param sep: That is the separator.
+        :param word: That is the work to replace.
+        :param sentence: That is the sentence.
     """
     len_word = len(word)
     replacer = sep * len_word
