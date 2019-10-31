@@ -7,9 +7,9 @@
 #=================================================================================
 def removeTriplicateLetters(sentence):
     """
-        :param sentence: The sentence to transform
-        :param words: The words in the sentence
-        :param new_words: List of the final words of the new sentence
+        :param sentence: The sentence to transform.
+        :param words: The words in the sentence.
+        :param new_words: The list of the final words of the new sentence.
 
     """
     words = sentence.split(" ") # split the sentence into words
