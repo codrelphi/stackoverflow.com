@@ -18,3 +18,11 @@ And now I would like to populate a tuple with all of the name and alias strings,
 result = ('x', 'y', 'test', 'run', 'log')
 
 """
+
+x = {'name': 'x', 'alias': ['test']}
+y = {'name': 'y', 'alias': ['run', 'log']}
+z = (x, y)      # ({'name': 'x', 'alias': ['test']}, {'name': 'y', 'alias': ['run', 'log']})
+result = tuple(x for dname in z for x in dname['name']) + tuple(x for dalias in z for x in dalias['alias'])
+print(result)
+
+# another response: tuple(i for dct in z for i in [dct['name'], *dct['alias']])
