@@ -17,3 +17,7 @@ bill("bread", "cheese") # The client buys the products `bread` and `cheese`
 print(demand)
 bill("bread", "cheese", "water", "butter")
 print(demand)
+
+# Outputs
+# {'bread': 1, 'butter': 0, 'cheese': 1, 'water': 0, 'ice cream': 0}
+# {'bread': 2, 'butter': 1, 'cheese': 2, 'water': 1, 'ice cream': 0}
