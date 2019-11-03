@@ -18,3 +18,14 @@ for wo2 in book_list:
 # Outputs
 # book1
 # book10
+
+# Update: For simplicity, you can you all() in your condition:
+
+"""
+book_list = ["book1", "book.2", "book/3", "book/\4", "book-5", "book(6", "book)7", "book(8)", "book10"]
+
+for wo2 in book_list:
+    if all(c not in wo2 for c in '/"-.()'):
+        print (wo2)
+
+"""
