@@ -14,3 +14,7 @@ book_list = ["book1", "book.2", "book/3", "book/\4", "book-5", "book(6", "book)7
 for wo2 in book_list:
     if "/" not in wo2 and "\"" not in wo2 and "-" not in wo2 and "." not in wo2 and "(" not in wo2 and ")" not in wo2:
         print (wo2)
+
+# Outputs
+# book1
+# book10
