@@ -18,3 +18,5 @@ def Censor(curseWords, niceWords, dirtySentence):
 
 dirtySentence = Censor(curseWords, niceWords, dirtySentence) # call the defined function
 print(dirtySentence)
+
+# Output: You poo, buttox in spoon
