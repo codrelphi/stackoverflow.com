@@ -18,8 +18,8 @@ s1 = [1,2,3,4,7]
 s2 = [3,4,5,6,20]
 mainlist = [6,7,8,9,10,11,12,13,14,15]
 
-for i in mainlist:
-    if i in s1 or i in s2:
-        mainlist.remove(i)
+result = [i for i in mainlist if i not in s1 and i not in s2]
 
-print(mainlist)
+print(result)
+
+# result = [8, 9, 10, 11, 12, 13, 14, 15]
