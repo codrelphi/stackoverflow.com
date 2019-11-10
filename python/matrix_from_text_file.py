@@ -15,13 +15,11 @@ xxxxx
 # desired output
 # print(matrix[1][1])
 # S
+
 txt = open('matrix.txt')
 matrix = []
 for line in txt:
-    line_list = []
-    for l in list(line):
-        if l != '\n':
-            line_list.append(l)
+    line_list = [l for l in list(line) if l != '\n']
     matrix.append(line_list)
 
 print(matrix)
