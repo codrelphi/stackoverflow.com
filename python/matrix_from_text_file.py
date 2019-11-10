@@ -15,7 +15,8 @@ xxxxx
 # desired output
 # print(matrix[1][1])
 # S
-
+txt = open('matrix.txt')
+matrix = []
 for line in txt:
     line_list = []
     for l in list(line):
