@@ -24,3 +24,7 @@ for line in txt:
 
 print(matrix)
 print(matrix[1][1])
+
+# outputs
+# [['x', 'x', 'x', 'x', 'x'], ['x', 'S', '-', '-', 'x'], ['x', 'x', '-', 'F', 'x'], ['x', 'x', 'x', 'x', 'x']]
+# S
