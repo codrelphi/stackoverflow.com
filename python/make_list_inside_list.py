@@ -8,3 +8,14 @@
 
 # Problem
 # factorial_list(4) yields [[1], [1, 2], [1, 2, 3], [1, 2, 3, 4]]
+
+def factorial_list(n):
+    final_list = []
+    for i in range(1, n+1):
+        temp = []
+        for j in range(1, i+1):
+            temp.append(j)
+        final_list.append(temp)
+    print(final_list)
+
+factorial_list(4)   # [[1], [1, 2], [1, 2, 3], [1, 2, 3, 4]]
