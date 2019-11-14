@@ -7,10 +7,7 @@
 #=================================================================================
 
 def count_char(text, char):
-    text = text.lower()
-    char = char.lower()
-    words = text.split()
-    return [word.count(char) for word in words]
+    return [word.count(char.lower()) for word in text.lower().split()]
 
 
 if __name__ == '__main__':
