@@ -20,3 +20,7 @@ if __name__ == '__main__':
         print(is_perfect(user_input))
     except ValueError:
         print("Error: enter a number")
+
+# Output
+# Enter your number: 6
+# True
