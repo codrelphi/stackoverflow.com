@@ -25,3 +25,6 @@ class Whatever:
 function=Whatever(thing1)
 function_output=function.new_function()
 print(function_output)
+
+# Let assume df1 = "hello", df2 = "world" and thing1 = "good".
+# The above code will produce the result [['hello', 'world']].
