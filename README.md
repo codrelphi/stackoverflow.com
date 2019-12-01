@@ -1,2 +1,2 @@
 # Stackoverflow.com
-👌 Contains codes for stackoverflow.com questions. 👌
+Contains codes for SO's questions.
