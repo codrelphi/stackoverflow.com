@@ -8,14 +8,8 @@
 def dot_be_gone(dirty_dic):
     clean_dic = {}
     for x, y in dirty_dic.items():
-        clean_x = x
-        clean_y = y
-        if '.' in x:
-            x_items = x.split('.')
-            clean_x = x_items[0] + x_items[1]
-        if '.' in y:
-            y_items = y.split('.')
-            clean_y = y_items[0] + y_items[1]
+        clean_x = x.replace('.', "")
+        clean_y = y.replace('.', "")
         clean_dic[clean_x] = clean_y
     return(clean_dic)
 
