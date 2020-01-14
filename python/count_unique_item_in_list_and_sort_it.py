@@ -3,7 +3,7 @@
 #=================================================================================
 # author: Chancerel Codjovi (aka codrelphi)
 # date: 2020-01-14
-# source: the post is deleted
+# source: https://stackoverflow.com/questions/59738905/python-count-lists-values-and-put-them-in-ordered-list-without-library
 #=================================================================================
 the_list = ['Antonia', 'Sara', 'Nick', 'Deppy', 'Antonia', 'Deppy', 'Antonia']
 
