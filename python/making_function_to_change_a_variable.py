@@ -16,3 +16,13 @@ def check(output_name):
 output_name = "sample"
 result = check(output_name)
 print(result) # sample.pdf
+
+# Method 2: base on the string method endswith
+def check(output_name):
+    if not output_name.endswith('.pdf'):
+        output_name = output_name + ".pdf"
+    return output_name
+
+output_name = "sample"
+result = check(output_name)
+print(result) # sample.pdf
